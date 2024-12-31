@@ -1,0 +1,54 @@
+ID,Series-Type ID (String),Build Cost/Value,Build Boost Max Cost/Value,Has Effect,Can Be Boosted,Starter Deck Quantity,Total Tier Points,Tier %,Rarity,Series,Type,Series-Type ID,Card Name,"Tier [1-Common, 2-Uncommon, 3-Rare, 4-Ultra Rare, 5-Legendary]",Build Value,BUILD Mineral Cost,BUILD Organics Cost,BUILD Water Cost,Max Boost Value,Max Boost Mineral Cost,Max Boost Organics Cost,Max Boost Water Cost,BUILD Effect,BUILD Effect Game Steps,Deck 1 Quantity,Deck 2 Quantity
+ALPHA-R-000,000,#VALUE!,#VALUE!,,#VALUE!,28,29.000,#DIV/0!,#DIV/0!,ALPHA,Resource,0,Mineral,0,NA,-1,0,0,#VALUE!,0,0,0,,,16,12
+ALPHA-R-001,001,#VALUE!,#VALUE!,,#VALUE!,20,29.000,#DIV/0!,#DIV/0!,ALPHA,Resource,1,Organic,0,NA,0,-1,0,#VALUE!,0,0,0,,,9,11
+ALPHA-R-002,002,#VALUE!,#VALUE!,,#VALUE!,17,29.000,#DIV/0!,#DIV/0!,ALPHA,Resource,2,Water,0,NA,0,0,-1,#VALUE!,0,0,0,,,8,9
+ALPHA-U-044,044,3.000,3.000,?,,2,29.000,0.250,0.86%,ALPHA,Unit,44,Demolition Expert,4,1,3,0,0,0,0,0,0,"Once, Upon Completion: Destroy any 1 unit on the field.","Instantly allow selection of any unit on the field, confirm selection, return unit and all attached resources to owner's deck",1,1
+ALPHA-U-001,001,1.000,1.000,?,?,1,29.000,0.333,1.15%,ALPHA,Unit,1,Starter Home,3,1,0,1,0,2,1,0,1,Max 1 WATER += Build Value Max 1 MINERAL += Build Value,Add a game rule that up to 1 attached WATER will increase this cards Build Points by 1. Add a game rule that up to 1 attached MINERAL will increase this cards Build Points by 1.,1,
+ALPHA-U-004,004,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,4,Hydrant,2,1,0,0,1,0,0,0,0,,,1,
+ALPHA-U-011,011,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,11,Lemonade Stand,2,2,0,1,1,0,0,0,0,,,1,
+ALPHA-U-017,017,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,17,Pretzel Cart,2,2,0,1,1,0,0,0,0,,,1,
+ALPHA-U-018,018,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,18,Bakery,2,3,1,1,1,0,0,0,0,,,1,
+ALPHA-U-020,020,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,20,Music Shop,2,2,1,1,0,0,0,0,0,,,1,
+ALPHA-U-029,029,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,29,Dog Park,2,1,0,1,0,0,0,0,0,,,1,
+ALPHA-U-032,032,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,32,Walking Path,2,1,1,0,0,0,0,0,0,,,1,
+ALPHA-U-000,000,1.750,1.750,?,,1,29.000,0.200,0.69%,ALPHA,Unit,0,Water Pump,5,4,7,0,0,0,0,0,INF,Waters attached to this unit are shared with all units.,For each shared RESOURCE: Add game rule that all player units (except this one) should have +1 WATER when calculating RESOURCEs. Spawns ghost-resource card attached to all units (except this one). [Also includes rule removal function.],1,
+ALPHA-U-031,031,2.000,2.000,?,,1,29.000,0.200,0.69%,ALPHA,Unit,31,Factory,5,2,2,1,1,0,0,0,0,"Once, Upon Completion: All players return all Organics and Water to hand.",Instantly return all organics and water to hands.,1,
+ALPHA-U-019,019,1.000,1.000,?,?,1,29.000,0.333,1.15%,ALPHA,Unit,19,Ranch Home,3,3,3,0,0,3,0,2,1,Max 1 WATER += Build Value Max 2 ORGANIC += Build Value,Add a game rule that up to 1 attached WATER will increase this cards Build Points by 1. Add a game rule that up to 2 attached ORGANIC will increase this cards Build Points by 1.,,1
+ALPHA-U-005,005,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,5,Wheelbarrow,2,1,1,0,0,0,0,0,0,,,,1
+ALPHA-U-008,008,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,8,Burger Joint,2,3,1,1,1,0,0,0,0,,,,1
+ALPHA-U-023,023,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,23,Small Park,2,2,1,1,0,0,0,0,0,,,,1
+ALPHA-U-027,027,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,27,Lone Pine,2,1,0,1,0,0,0,0,0,,,,1
+ALPHA-U-028,028,1.000,1.000,,,1,29.000,0.500,1.72%,ALPHA,Unit,28,Twin Pines,2,2,0,2,0,0,0,0,0,,,,1
+ALPHA-U-002,002,1.250,1.250,?,,1,29.000,0.200,0.69%,ALPHA,Unit,2,Farmland,5,4,0,0,5,0,0,INF,0,Organics attached to this unit are shared with all units.,For each shared RESOURCE: Add game rule that all player units (except this one) should have +1 ORGANIC when calculating RESOURCEs. Spawns ghost-resource card attached to all units (except this one). [Also includes rule removal function.],,1
+ALPHA-U-038,038,0.500,0.500,,,0,29.000,0.200,0.69%,ALPHA,Unit,38,Gaming CenterSP,5,4,0,2,0,0,0,0,0,,,,
+ALPHA-U-034,034,0.667,0.667,,,0,29.000,0.250,0.86%,ALPHA,Unit,34,Swimming Pool,4,3,1,0,1,0,0,0,0,,,,
+ALPHA-U-039,039,0.667,0.667,,,0,29.000,0.250,0.86%,ALPHA,Unit,39,Gaming Center,4,3,0,2,0,0,0,0,0,,,,
+ALPHA-U-040,040,0.667,0.667,,,0,29.000,0.250,0.86%,ALPHA,Unit,40,Videogames,4,3,2,0,0,0,0,0,0,,,,
+ALPHA-U-030,030,0.750,0.750,,,0,29.000,0.250,0.86%,ALPHA,Unit,30,Library,4,4,1,1,1,0,0,0,0,,,,
+ALPHA-U-036,036,0.750,0.750,,,0,29.000,0.250,0.86%,ALPHA,Unit,36,CampingSP,4,4,1,1,1,0,0,0,0,,,,
+ALPHA-U-041,041,0.750,0.750,,,0,29.000,0.250,0.86%,ALPHA,Unit,41,Theatre,4,4,1,2,0,0,0,0,0,,,,
+ALPHA-U-014,014,0.800,0.800,,,0,29.000,0.333,1.15%,ALPHA,Unit,14,Taco Bar,3,5,1,2,1,0,0,0,0,,,,
+ALPHA-U-003,003,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,3,Water Tower,1,2,0,0,2,0,0,0,0,,,,
+ALPHA-U-006,006,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,6,Waffle Shop,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-007,007,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,7,Cheese Palace,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-009,009,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,9,Pizza Place,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-010,010,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,10,Hotdogs,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-012,012,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,12,Coffee Shop,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-013,013,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,13,Spectacles Shop,1,3,3,0,0,0,0,0,0,,,,
+ALPHA-U-015,015,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,15,Donut Shop,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-016,016,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,16,Ice Cream Parlor,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-021,021,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,21,Coffee House,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-022,022,1.000,1.000,?,?,0,29.000,1.000,3.45%,ALPHA,Unit,22,Small ParkSP,1,2,0,2,0,2,1,0,1,Max 1 WATER += Build Value Max 1 MINERAL += Build Value,Add a game rule that up to 1 attached WATER will increase this cards Build Points by 1. Add a game rule that up to 1 attached MINERAL will increase this cards Build Points by 1.,,
+ALPHA-U-025,025,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,25,Auto Shop,1,3,3,0,0,0,0,0,0,,,,
+ALPHA-U-026,026,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,26,Decorative Masonry,1,1,1,0,0,0,0,0,0,,,,
+ALPHA-U-033,033,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,33,Hiking Trail,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-035,035,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,35,Camping,1,3,1,1,1,0,0,0,0,,,,
+ALPHA-U-037,037,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,37,Free water,1,1,0,0,1,0,0,0,0,,,,
+ALPHA-U-042,042,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,42,Apartments,1,6,4,1,1,0,0,0,0,,,,
+ALPHA-U-049,049,1.000,1.000,,,0,29.000,1.000,3.45%,ALPHA,Unit,49,Bowling,1,2,2,0,0,0,0,0,0,,,,
+ALPHA-U-024,024,1.333,1.333,?,,0,29.000,0.200,0.69%,ALPHA,Unit,24,Mining Cave,5,3,4,0,0,0,INF,0,0,Minerals attached to this unit are shared with all units.,For each shared RESOURCE: Add game rule that all player units (except this one) should have +1 MINERAL when calculating RESOURCEs. Spawns ghost-resource card attached to all units (except this one). [Also includes rule removal function.],,
+ALPHA-U-045,045,1.500,1.500,?,,0,29.000,0.250,0.86%,ALPHA,Unit,45,Steam Train,4,4,3,0,3,0,0,0,0,"Once, Upon Completion: Choose 4 resource cards from your deck. Shuffle.","Instantly show entire deck, allowing user to select up to 4 resource cards.",,
+ALPHA-U-046,046,2.000,2.000,?,,0,29.000,0.250,0.86%,ALPHA,Unit,46,Bio-Recycling,4,2,0,2,2,0,0,0,0,"Once, Upon Completion: Move an Organic from deck to hand * TurnCount","Instantly show deck, highlight TurnCount, auto select TurnCount # of Organics, move to player hand, shuffle.",,
+ALPHA-U-047,047,2.000,2.000,?,,0,29.000,0.250,0.86%,ALPHA,Unit,47,Mineral Recycling,4,2,1,1,2,0,0,0,0,"Once, Upon Completion: Move a Mineral from deck to hand * TurnCount","Instantly show deck, highlight TurnCount, auto select TurnCount # of Minerals, move to player hand, shuffle.",,
+ALPHA-U-043,043,3.000,3.000,?,,0,29.000,0.250,0.86%,ALPHA,Unit,43,Mineral Imports,4,1,3,0,0,0,0,0,0,"Once, Upon Completion: Choose 4 resource cards from your deck. Shuffle.","Instantly show entire deck, allowing user to select up to 4 resource cards.",,
+ALPHA-U-048,048,3.000,3.000,?,,0,29.000,0.250,0.86%,ALPHA,Unit,48,Barge Imports,4,2,4,0,2,0,0,0,0,Upon Completion: Draw an additional card each turn after opponent finishes a BUILD.,"Add to list of game rules, linking 'draw card' event to 'build completed' event with logic.",,
