@@ -1,32 +1,14 @@
-[gd_scene load_steps=2 format=1]
+[gd_scene load_steps=2 format=3 uid="uid://c3lxr4ht24kx3"]
 
-[ext_resource path="res://testing/CSV_READ_PROOF.gd" type="Script" id=1]
+[ext_resource type="Script" path="res://testing/csv_read_proof.gd" id="1_8ts7r"]
 
 [node name="Control" type="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 0.0
-margin/top = 0.0
-margin/right = 40.0
-margin/bottom = 40.0
-script/script = ExtResource( 1 )
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_8ts7r")
 
 [node name="Label" type="Label" parent="."]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 0.0
-margin/top = 0.0
-margin/right = 40.0
-margin/bottom = 14.0
-text = "Text"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
-
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "TEXT"

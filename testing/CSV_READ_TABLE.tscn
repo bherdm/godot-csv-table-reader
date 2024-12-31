@@ -1,22 +1,16 @@
-[gd_scene load_steps=3 format=1]
+[gd_scene load_steps=3 format=3 uid="uid://vbq2xccklgb5"]
 
-[ext_resource path="res://testing/csv_read_table.gd" type="Script" id=1]
-[ext_resource path="res://testing/csv_reader.gd" type="Script" id=2]
+[ext_resource type="Script" path="res://testing/csv_read_table.gd" id="1_tc2k2"]
+[ext_resource type="Script" path="res://testing/csv_reader.gd" id="2_57xnh"]
 
 [node name="Control" type="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 0.0
-margin/top = 0.0
-margin/right = 40.0
-margin/bottom = 40.0
-script/script = ExtResource( 1 )
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tc2k2")
 
 [node name="CSV_READER" type="Node" parent="."]
-
-script/script = ExtResource( 2 )
-
-
+script = ExtResource("2_57xnh")

@@ -1,32 +1,25 @@
 extends Node
 
 var CSV_BUILDM_CARDS = "res://assets/buildm_cards.csv"
+@onready var label: Label = $Label
 
-func read_csv(X, Y):
-	var data = open_csv()
-	if data.size() > 0:
-		var cell_a1 = data[X][Y] # First row, first column
+func open_CSV():
+	var file = FileAccess.open(CSV_BUILDM_CARDS,FileAccess.READ)
+	if file:
+		var content = file.get_as_text()
+		file.close()
+		var csv_data = parse_csv(content)
+		return csv_data
+	else:
+		print("File does not exist or cannot be opened.")
+
+func open_read_CSV(X, Y):
+	var csv_data = open_CSV()
+	if len(csv_data) > X and len(csv_data[X]) > Y:
+		var cell_a1 = csv_data[X][Y]
 		return cell_a1
 	else:
-		print ("CSV is empty or does not have enough data.")
-
-
-func open_csv():
-	var file_path = CSV_BUILDM_CARDS
-	
-	var file = File.new()
-	var result = []
-	if file.file_exists(file_path):
-		file.open(file_path, File.READ)
-		while not file.eof_reached():
-			var line = file.get_line().strip_edges()
-			if line != "":
-				var values = line.split(",")
-				result.append(values)
-		file.close()
-	else:
-			print("File does not exist.")
-	return result
+		print("CSV is empty or does not have enough data.")
 
 func parse_csv(content):
 	var result = []
